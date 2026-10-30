@@ -1,0 +1,14 @@
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💬 Расскажите о своём опыте с WxP.
+        Не публикуйте коды доступа, ключи, чеки и личные данные.
+  - type: textarea
+    id: experience
+    attributes:
+      label: Что удобно, а что хочется улучшить?
+      description: Поделитесь своим сценарием использования и впечатлениями.
+    validations:
+      required: true

@@ -1,0 +1,19 @@
+name: Предложение
+description: Предложить функцию или улучшение интерфейса.
+title: "[Идея] "
+labels: []
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Какую задачу нужно решить
+      description: Опишите пользовательский сценарий и что сейчас неудобно.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Предложение
+      description: Как вы представляете улучшение.
+    validations:
+      required: true

@@ -1,0 +1,21 @@
+title: "[Идея] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💡 Что сделает WxP удобнее? Начните с вашей задачи.
+        Не публикуйте коды доступа, ключи или личные данные.
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Что хочется сделать проще?
+      placeholder: Например, каждый день переключаю один и тот же набор сервисов…
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Как это могло бы работать?
+      description: Можно коротко; макет и техническое решение не обязательны.
+    validations:
+      required: true

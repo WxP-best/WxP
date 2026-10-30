@@ -1,0 +1,26 @@
+# Default deny: only reviewed documentation is admitted.
+*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CHANGELOG.md
+!/LICENSE.md
+!/CODE_SIGNING.md
+!/SECURITY.md
+!/CONTRIBUTING.md
+!/CONTENTS.sha256
+!/assets/
+!/assets/logo.png
+!/assets/screenshots/
+!/assets/screenshots/*.png
+!/docs/
+!/docs/*.md
+!/licenses/
+!/licenses/*.txt
+!/.github/
+!/.github/ISSUE_TEMPLATE/
+!/.github/ISSUE_TEMPLATE/*.yml
+!/ROADMAP.md
+!/assets/wxp-cover.svg
+!/.github/DISCUSSION_TEMPLATE/
+!/.github/DISCUSSION_TEMPLATE/*.yml

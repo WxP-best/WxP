@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Задать вопрос или предложить идею
+    url: https://github.com/WxP-best/WxP/discussions
+    about: Вопросы, пожелания и отзывы о приложении — в Discussions.
+  - name: 🆘 Помощь с аккаунтом и оплатой
+    url: https://t.me/blogWxP?direct
+    about: Личные вопросы решаем в поддержке. Коды и чеки не публикуйте.

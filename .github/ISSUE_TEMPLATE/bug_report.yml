@@ -1,0 +1,43 @@
+name: Ошибка в приложении
+description: Сообщить о проблеме без личных данных и кодов доступа.
+title: "[Ошибка] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Не добавляйте коды доступа, платёжные ссылки, внутренние адреса и полный журнал без удаления личных данных.
+        Вопросы оплаты направляйте в официальный контакт поддержки сервиса.
+  - type: input
+    id: version
+    attributes:
+      label: Версия WxP
+      placeholder: Например, 1.3.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Версия Windows
+      placeholder: Версия и разрядность системы
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что произошло
+      description: Ожидаемый результат и фактическое поведение; текст ошибки без личных данных.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: После каких действий возникает проблема
+      description: Обычные действия, после которых вы заметили ошибку.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Дополнительная информация
+      description: Режим подключения и другие сетевые программы, если это относится к ошибке. Без конфигов и ключей.

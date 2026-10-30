@@ -1,0 +1,7 @@
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+*.sha256 text eol=lf
+*.png binary
+*.svg text eol=lf
+licenses/** -text
